@@ -30,6 +30,7 @@ struct ContentView: View {
     }
 }
 
+//TextView
 struct KaraokeText: View {
     let fullText: String
     @Binding var visibleTextLength: Int
