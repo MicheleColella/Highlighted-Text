@@ -17,7 +17,7 @@ struct ContentView: View {
         }
     }
 
-    //Animation
+
     private func animateText() {
         if visibleTextLength < fullText.count {
             withAnimation(.linear(duration: textSpeed)) {
@@ -30,7 +30,6 @@ struct ContentView: View {
     }
 }
 
-//TextView
 struct KaraokeText: View {
     let fullText: String
     @Binding var visibleTextLength: Int
