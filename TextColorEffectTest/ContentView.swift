@@ -17,6 +17,7 @@ struct ContentView: View {
         }
     }
 
+    //Animation
     private func animateText() {
         if visibleTextLength < fullText.count {
             withAnimation(.linear(duration: textSpeed)) {
